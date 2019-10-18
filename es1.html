@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/script.js"></script>
+    <title>Es html</title>
+</head>
+<body>
+    <form id="form" action="/asderino.html" method="POST">
+        <label for="cognome">Cognome</label>
+        <input type="text" name="cognome" id="cognome" maxlength="40">
+        <br>
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" maxlength="30">
+        <br>
+        <label for="matricola">Matricola</label>
+        <input type="text" name="matricola" id="matricola" maxlength="12">
+        <br>
+        <label for="regione">Regione</label>
+        <select size=1 cols=4 NAME="Regione" id="regione">
+                <option value="0"></option>
+                <option value="1"> Valle D'Aosta</option>
+                <option value="2"> Lombardia</option>
+                <option Value="3"> Piemonte</option>
+                <option value="4"> Trentino Alto Adige</option>
+                <option value="5"> Friuli Venezia Giulia</option>
+                <option value="6"> Veneto</option>
+                <option value="7"> Liguria</option>
+                <option Value="8"> Emilia Romagna </option>
+                <option value="9"> Toscana</option>
+                <option value="10"> Marche</option>
+                <option value="11"> Umbria</option>
+                <option value="12"> Abruzzo</option>
+                <option Value="13"> Lazio</option>
+                <option value="14"> Molise</option>
+                <option value="15"> Campania</option>
+                <option value="16"> Puglia</option>
+                <option value="17"> Calabria</option>
+                <option Value="18"> Basilicata</option>
+                <option value="19"> Sicilia</option>
+                <option value="20"> Sardegna</option>    
+        </select>
+        <br>
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" maxlength="30">
+        <br>
+        <label for="telefono">Telefono</label>       
+        <input type="text" name="telefono" id="telefono" maxlength="15">
+        <br>
+        <label for="richieste">Richieste Particolari</label>
+        <textarea name="richieste" cols="60" rows=12 id="richieste"></textarea>
+        <br>
+        <input type="submit" value="Invia">
+        <br>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
